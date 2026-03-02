@@ -1,0 +1,97 @@
+# Visual Studio cache
+.vs/
+
+bin/
+obj/
+**/bin/
+**/bin/**
+
+
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Node, temp, and environment
+node_modules/
+*.tmp
+.env
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Ignore logs
+*.log
+Logs/
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore migrations if not needed
+Migrations/
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotCover
+*.dotCover
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+# Packages folder can be ignored if using PackageReference
+packages/
+
+# Build, dist, and coverage
+/dist/
+/build/
+coverage/
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# Others
+*.vspscc
+*.vssscc
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Others
+*.vspscc
+*.vssscc
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotCover
+*.dotCover
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+# Packages folder can be ignored if using PackageReference
+packages/
