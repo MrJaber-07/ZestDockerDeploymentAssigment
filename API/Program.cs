@@ -25,7 +25,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("MyReactPolicy", builder =>
+    options.AddPolicy("ReactApp", builder =>
     {
         builder.WithOrigins("http://localhost:3000") // Your React URL
                .AllowAnyHeader()
@@ -42,6 +42,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseMiddleware<API.Middlewares.ExceptionMiddleware>();
+app.UseCors("ReactApp");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
